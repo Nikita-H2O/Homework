@@ -1,0 +1,121 @@
+html {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
+}
+
+
+
+.p,
+a,
+h1,
+ul {
+    font-family: Roboto;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+ul {
+    font-size: 18px;
+    line-height: 100%;
+}
+
+#heroP,
+#p3,
+#p7 {
+    opacity: 60%;
+}
+
+#heroP {
+    font-size: 14px;
+    line-height: 100%;
+    margin: 0 630px 14px;
+    width: 180px;
+    height: 16px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 38px;
+    margin: 0 458px 30px;
+    width: 525px;
+    height: 76px;
+}
+
+#p2,
+#p6,
+a,
+#p7 {
+    font-size: 16px;
+}
+
+#p2,
+#p3,
+#p7 {
+    line-height: 28px;
+}
+
+#p3 {
+    font-size: 14px;
+    margin: 0 0 28px;
+}
+
+#p4 {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0 367px 185px;
+    width: 708px;
+    height: 101px;
+}
+
+#p5,
+#p6,
+a {
+    line-height: 30px;
+}
+
+input {
+    background-color: #1F293799;
+    width: 224px;
+    height: 40px;
+    border-radius: 100px;
+    margin: 0 0 70px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 80px 0 0 226px;
+    padding: 0;
+}
+
+#Heroimg {
+    margin: 0 272px 70px;
+}
+
+img {
+    margin: 0 640px;
+}
+
+#p5 {
+    width: 708px;
+    height: 101px;
+    margin: 0 366px 45px;
+}
+
+#p6 {
+    width: 708px;
+    height: 101px;
+    margin: 0 366px 103px;
+}
+
+#p7 {
+    margin: 0 608px 77px;
+    width: 226px;
+    height: 28px;
+}
+
+#p2 {
+    margin: 0 640px;
+}
+
+#p3 {
+    margin: 0 640px 23px;
+}
