@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Регистрация</title>
+    <link rel="stylesheet" href="./Styles/Style.css">
 </head>
 
 <body>
     <main>
         <h1>Регистрация</h1>
-        Уже есть аккаунт? <a href="#">Войти</a>
+        <span>Уже есть аккаунт?</span>
+        <a href="#">Войти</a>
         <form action="#" method="get">
             <input type="text" name="company" id="company" placeholder="Название компании"
                 title="Нужно ввести название компании" required>
@@ -23,11 +25,12 @@
             <div>
                 <input type="email" name="email" id="email" placeholder="E-mail" title="Нужно ввести E-mail" required>
             </div>
-            <button>Зарегистрироваться</button>
+            <button type="submit">Зарегистрироваться</button>
             <div>
                 <input type="checkbox" name="politic" id="politic"
-                    title="Нужно прочитать и принять условия использования" required>Я прочитал и принимаю
-                <a href="#" target="_blank">Условия использования</a>
+                    title="Нужно прочитать и принять условия использования" required> <span class="terms">Я прочитал и
+                    принимаю</span>
+                <a href="#" target="_blank" class="usloviya">Условия использования</a>
             </div>
         </form>
     </main>
