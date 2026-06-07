@@ -10,29 +10,36 @@
 
 <body>
     <main>
-        <h1>Регистрация</h1>
-        <span>Уже есть аккаунт?</span>
-        <a href="#">Войти</a>
-        <form action="#" method="get">
-            <input type="text" name="company" id="company" placeholder="Название компании"
-                title="Нужно ввести название компании" required>
-            <div>
-                <input type="text" name="first name" id="first name" placeholder="Имя" title="Нужно ввести имя"
-                    required>
-                <input type="text" name="last name" id="last name" placeholder="Фамилия" title="Нужно ввести фамилию"
-                    required>
-            </div>
-            <div>
-                <input type="email" name="email" id="email" placeholder="E-mail" title="Нужно ввести E-mail" required>
-            </div>
-            <button type="submit">Зарегистрироваться</button>
-            <div>
-                <input type="checkbox" name="politic" id="politic"
-                    title="Нужно прочитать и принять условия использования" required> <span class="terms">Я прочитал и
-                    принимаю</span>
-                <a href="#" target="_blank" class="usloviya">Условия использования</a>
-            </div>
-        </form>
+        <div class="container">
+            <h1>Регистрация</h1>
+            <span>Уже есть аккаунт? <a href="#">Войти</a></span>
+
+            <form action="#" method="get">
+                <input type="text" name="company" id="company" placeholder="Название компании"
+                    title="Нужно ввести название компании" required>
+                <div class="name">
+                    <input type="text" name="first name" id="first name" placeholder="Имя" title="Нужно ввести имя"
+                        required>
+                    <img src="../2-Form/Images/Line 1.svg" alt="Линия разделения имени и фамилии">
+                    <input type="text" name="last name" id="last name" placeholder="Фамилия"
+                        title="Нужно ввести фамилию" required>
+                </div>
+                <div class="email">
+                    <input type="email" name="email" id="email" placeholder="E-mail" title="Нужно ввести E-mail"
+                        required>
+                </div>
+                <button type="submit">Зарегистрироваться</button>
+                <div class="politic">
+                    <input type="checkbox" name="politic" id="politic"
+                        title="Нужно прочитать и принять условия использования" required>
+                    <div class="terms">Я прочитал
+                        и
+                        принимаю</div>
+                    <a href="#" target="_blank" class="usloviya">Условия использования</a>
+                </div>
+            </form>
+        </div>
+
     </main>
 </body>
 

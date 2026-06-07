@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Styles/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+3&display=swap" rel="stylesheet">
     <title>Blog</title>
 </head>
 
@@ -12,19 +15,30 @@
     <header>
         <nav>
             <ul>
-                <li>Мой блог</li>
-                <li>HTML и CSS</li>
-                <li>Frontend</li>
+                <div>
+                    <p>В</p>
+                </div>
+                <li class="li1">Мой блог</li>
+                <li class="li2">HTML и CSS</li>
+                <li class="li3">Frontend</li>
                 <li>Backend</li>
             </ul>
             <input type="search" name="search" id="search" placeholder="Поиск">
         </nav>
-        <div id="heroDiv">
-            <p id="heroP" class="p">FRONTEND 12 мая 2024</p>
-            <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
-            <img src="./Images/Ellipse 1.png" alt="Фото владельца блога">
-            <p id="p2" class="p">Наталья Васильева</p>
-            <p id="p3" class="p">Разработчик</p>
+        <div class="heroDiv">
+            <p id="heroP" class="p">FRONTEND</p>
+            <img class="tochka" src="./Images/Rectangle 5.svg" alt="белая точка">
+            <p id="heroP" class="p">12 мая 2024</p>
+        </div>
+        <h1>Теория цвета - Как цвет влияет на поведение потребителей</h1>
+        <div class="author">
+            <div>
+                <img src="./Images/Ellipse 1.png" alt="Фото владельца блога">
+            </div>
+            <div>
+                <p id="p2" class="p">Наталья Васильева</p>
+                <p id="p3" class="p">Разработчик</p>
+            </div>
         </div>
     </header>
     <main>

@@ -1,8 +1,8 @@
 html {
     background: linear-gradient(180deg, #374151 0%, #111827 100%);
+    max-width: 1440px;
+    box-sizing: border-box;
 }
-
-
 
 .p,
 a,
@@ -11,11 +11,31 @@ ul {
     font-family: Roboto;
     font-weight: 400;
     color: #FFFFFF;
+    margin: 0;
 }
 
 ul {
-    font-size: 18px;
+    list-style-type: none;
+    font-size: 16px;
     line-height: 100%;
+    display: flex;
+    gap: 11px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.li1 {
+    margin-right: 66px;
+    font-size: 18px;
+}
+
+.li2 {
+    margin-right: 41px;
+}
+
+.li3 {
+    margin-right: 28px;
 }
 
 #heroP,
@@ -27,17 +47,19 @@ ul {
 #heroP {
     font-size: 14px;
     line-height: 100%;
-    margin: 0 630px 14px;
-    width: 180px;
-    height: 16px;
+}
+
+.tochka {
+    margin: 0;
 }
 
 h1 {
     font-size: 24px;
     line-height: 38px;
-    margin: 0 458px 30px;
     width: 525px;
     height: 76px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 #p2,
@@ -55,7 +77,6 @@ a,
 
 #p3 {
     font-size: 14px;
-    margin: 0 0 28px;
 }
 
 #p4 {
@@ -77,21 +98,15 @@ input {
     width: 224px;
     height: 40px;
     border-radius: 100px;
-    margin: 0 0 70px;
-}
-
-ul {
-    list-style-type: none;
-    margin: 80px 0 0 226px;
-    padding: 0;
+    border: none;
+    padding: 9px 0 12px 49px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
 }
 
 #Heroimg {
-    margin: 0 272px 70px;
-}
-
-img {
-    margin: 0 640px;
+    margin: 0 0 69px 272px;
 }
 
 #p5 {
@@ -112,10 +127,46 @@ img {
     height: 28px;
 }
 
-#p2 {
-    margin: 0 640px;
+ul>div {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    background-color: #4B5563;
+    box-shadow: 0px 15px 30px 0px #00000026;
+    align-items: center;
 }
 
-#p3 {
-    margin: 0 640px 23px;
+ul>div>p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    margin: 71px 0 69px 0;
+    gap: 346px;
+    align-items: center;
+}
+
+.heroDiv {
+    display: flex;
+    margin: 0 0 14px;
+    gap: 12px;
+}
+
+.author {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 28px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
